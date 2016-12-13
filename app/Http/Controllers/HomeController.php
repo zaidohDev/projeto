@@ -2,17 +2,10 @@
 
 namespace App\Http\Controllers;
 
+class HomeController extends Controller {
+	public function index() {
 
-use App\Http\Requests\Request;
-
-use App\Http\Requests;
-
-class HomeController extends Controller
-{
-    public function index(){
-
-    	return view('home');
-    }
-
+		return view('home');
+	}
 
 }
