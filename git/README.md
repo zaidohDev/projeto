@@ -1,1 +1,0 @@
-# laraticketi.dev
